@@ -1,0 +1,42 @@
+@media (max-width: 768px) {
+  .header {
+    width: 98%;
+  }
+  .header_logo_img {
+    width: 7rem;
+  }
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin: auto;
+}
+.header_logo_img {
+  width: 10rem;
+}
+
+
+.header_nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_nav_link {
+  font-size: 19px;
+  margin: 1rem 0.5rem;
+  
+}
+.header_nav_link :hover{
+  text-decoration:underline
+}
+.header_nav_link_navlink {
+  padding: 0.2rem 0.7rem;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+
+
