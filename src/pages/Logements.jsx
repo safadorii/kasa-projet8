@@ -1,12 +1,11 @@
-import React from 'react'
-
-
-function logements() {
-  return (
-    <div>
-      logements
-    </div>
-  )
+import React from 'react';
+import HousingPage from "../composants/HousingPage";
+const logements = () => {
+    return(
+        <>  
+            <HousingPage />   
+        </>
+    )
 }
 
-export default logements
+export default logements;

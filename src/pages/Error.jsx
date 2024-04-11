@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import './error.css'
+import '../Assets/css/error.css'
 function error() {
   return (
     <div>

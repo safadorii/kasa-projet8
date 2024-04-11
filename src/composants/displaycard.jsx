@@ -1,5 +1,5 @@
 import React from 'react';
-import housings from '../../database.json'
+import housings from '../database.json'
 import Card from './card'
 const DisplayCards = () => {
     return(
