@@ -14,11 +14,6 @@
     max-height: 100%;
   }
 }
-@media (max-width: 768px) {
-  .collapse_content {
-    animation: slide 2s ease-in-out;
-  }
-}
 .collapse_header {
   z-index: 1;
   display: flex;
@@ -51,4 +46,25 @@
   font-size: 16px;
   line-height: 23px;
   animation: slide 1s ease-in;
+}
+.about_collapses {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 6rem;
+  margin-top: 1.5rem;
+  width: 100%;
+}
+.about_collapses_content {
+  margin-bottom: 0.5rem;
+  width: 95%;
+}
+@media (max-width: 768px) {
+  .collapse_content {
+    animation: slide 2s ease-in-out;
+  }
+  .about_collapses{
+    margin-top: 1.7rem;
+    width: 98%;
+  }
 }

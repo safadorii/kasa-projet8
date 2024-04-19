@@ -17,6 +17,7 @@
   .housing_page_header_infos_title {
     font-size: 35px;
     margin: 0;
+    color: #FF6060;
   }
   .housing_page_header_infos_subtitle {
     font-size: 18px;
@@ -50,6 +51,7 @@
     text-align: right;
     margin-right: 0.5rem;
     font-size: 18px;
+    color: #FF6060;
   }
   .housing_page_header_hoster_infos_img {
     width: 3.3rem;
@@ -65,9 +67,10 @@
   .housing_page_header_hoster_ratings_star {
     padding-left: 0.3rem;
     font-size: 25px;
+    color: #FF6060;
   }
   .housing_page_header_hoster_ratings_star_grey {
-    color: #bcbaba;
+    color:#E3E3E3;
   }
   .housing_page_collapses {
     display: flex;

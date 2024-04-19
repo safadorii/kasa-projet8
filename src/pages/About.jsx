@@ -1,6 +1,7 @@
 import React from 'react';
 import Banner from "../composants/banner";
 import Collapse from "../composants/collapse";
+import'../Assets/css/collapse.css'
 import banner from "../Assets/images/kalen-emsley-Bkci_8qcdvQ-unsplash 2.png";
 const About = () => {
     return(
