@@ -1,8 +1,8 @@
 {
-  "name": "kasa",
+  "name": "kasa-projet8",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/safadorii/kasa-projet8",
+  "homepage": "https://safadorii.github.io/",
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
