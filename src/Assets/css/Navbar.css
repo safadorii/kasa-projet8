@@ -19,10 +19,7 @@
   align-items: center;
 }
 .header_nav_link {
-  font-size: 19px;
- 
-  
-  
+  font-size: 19px;  
 }
 .header_nav_link :hover{
   text-decoration:underline
@@ -44,6 +41,9 @@ ul {
   }
   .header_logo_img {
     width: 7rem;
+  }
+  .header_nav_link {
+    font-size: 14px;  
   }
 }
 
