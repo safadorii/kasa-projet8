@@ -6,6 +6,7 @@ const angleLeft = <FontAwesomeIcon icon={faAngleLeft} />
 const angleRight = <FontAwesomeIcon icon={faAngleRight} />
 
 const Gallery = (props) => {
+ // Déclaration d'une variable d'état pour stocker l'index du slide actuel
     const [slideIdx, setSlideIdx] = useState(0);
     const imgSize = () => {
         const slideshowImg = document.querySelector('.slideshow_container img');
@@ -14,7 +15,7 @@ const Gallery = (props) => {
         }
         return slideshowImg.width;
     }
-
+// Fonction pour passer au slide suivant
     const Next = () => {
         if(slideIdx === props.img.length - 1){
             setSlideIdx(0)
@@ -22,7 +23,7 @@ const Gallery = (props) => {
             setSlideIdx(slideIdx + 1)
         }
     }
-
+// Fonction pour revenir au slide précédent
     const Prev = () => {
         if(slideIdx === 0){
             setSlideIdx(props.img.length - 1)
@@ -33,10 +34,11 @@ const Gallery = (props) => {
 
     return (
         <div className='slideshow'>
-            <div className='slideshow_container' style={{transform: `translateX(-${slideIdx * imgSize()}px)`}}>
+            <div className='slideshow_container' style={{transform: `translateX(-${slideIdx* imgSize() }px)`}}>
                 {props.img.map((picture, i) => 
                     <img className='slideshow_container_img' alt='banniere-page-logement' src={picture} key={i} />
-                )}
+                )}   
+            
             </div>
             
             {props.img.length > 1 && <>

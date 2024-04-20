@@ -3,8 +3,10 @@ import housings from '../database.json'
 import Card from './card'
 const DisplayCards = () => {
     return(
+// Section englobant toutes les cartes de logement
         <section className='housings_container'>
             <ul className='housings_list'>
+
                 {housings.map(({ id, title, cover }) => (
                     <Card
                         key={id}

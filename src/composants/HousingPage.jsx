@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import housings from '../database.json';
 import Collapse from '../composants/collapse';
 import Gallery from './Gallery';

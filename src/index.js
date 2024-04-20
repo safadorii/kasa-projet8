@@ -2,6 +2,7 @@ import React from 'react';
 import {createRoot} from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.css'
+// Import des composants de chaque page
 import Home from './pages/Home';
 import About from './pages/About';
 import Logements from './pages/Logements';

@@ -7,6 +7,7 @@ const angleDown = <FontAwesomeIcon icon={faAngleDown} />
 const angleUp = <FontAwesomeIcon icon={faAngleUp} />
 
 const Collapse = (props) => {
+ // Déclaration d'un état local pour gérer l'ouverture ou la fermeture du collapse
     const [ openTab, setOpenTab ] = useState(false);
 
     const opencollapse = () => {
